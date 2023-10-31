@@ -1,7 +1,14 @@
 
-export default function HeaderContent() {
+
+interface CountPageViewsProps{
+  pageViews: string
+}
+
+export default function CountPageViews({pageViews}: CountPageViewsProps) {
   return (
-    <div>index</div>
+    <p className="page-views">
+      {pageViews}K PAGEVIEWS
+    </p>
   )
 }
 
