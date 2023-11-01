@@ -1,3 +1,5 @@
+import BenefitsList from "../../components/BenefitsList";
+import Button from "../../components/Button";
 import CountPageViews from "../../components/CountPageViews";
 import InputRange from "../../components/InputRange";
 import PriceResult from "../../components/PriceResult";
@@ -8,8 +10,10 @@ export default function Main() {
       <main>
         <CountPageViews pageViews="100"/>
         <InputRange />
-        <PriceResult price="16" period="month"/>
+        <PriceResult price="16.00" period="month"/>
         <ToggleBilling />
+        <BenefitsList />
+        <Button />
 
       </main>
     )

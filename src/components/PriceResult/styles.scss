@@ -1,0 +1,18 @@
+.price-result {
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 2.8rem;
+        font-weight: 800;
+        margin-right: 10px;
+        color: $dark-desaturated-blue;
+    }
+
+    span {
+        color: $grayish-blue;
+        font-size: 1.5rem;
+    }
+}

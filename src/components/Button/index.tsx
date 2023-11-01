@@ -1,7 +1,9 @@
 
-export default function HeaderContent() {
+export default function Button() {
   return (
-    <div>index</div>
+    <div className="button-control">
+      <button type="submit">Start my trial</button>
+    </div>
   )
 }
 

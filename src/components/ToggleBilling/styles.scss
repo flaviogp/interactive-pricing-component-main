@@ -1,0 +1,55 @@
+.toggle-billing {
+    margin: 30px 0;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid $soft-cyan;
+
+    p {
+        font-size: 1.5rem;
+        color: $grayish-blue
+    }
+
+
+    span {
+        padding: 2px 5px;
+        background-color: rgba($light-red, .1);
+        color: $light-red;
+        border-radius: 5px;
+    }
+
+    label {
+        margin: 0 10px;
+
+        input[type='checkbox'] {
+            appearance: none;
+            width: 60px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: $soft-cyan;
+            position: relative;
+            cursor: pointer;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                background-color: #fff;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+            }
+
+            &:checked::after {
+                left: auto;
+                right: 5px;
+            }
+        }
+    }
+
+
+}

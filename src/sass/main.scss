@@ -1,6 +1,19 @@
 @import './_variables.scss';
 
-
 @import './index.scss';
+
+
+
+// Components
+@import '../components/CountPageViews/styles.scss';
+@import '../components/InputRange/styles.scss';
+@import '../components/PriceResult/styles.scss';
+@import '../components/ToggleBilling/styles.scss';
+@import '../components/BenefitsList/styles.scss';
+@import '../components/Button/styles.scss';
+
+
+
+// Containers
 @import '../containers/Main/styles.scss';
 @import '../containers/Header/styles.scss';

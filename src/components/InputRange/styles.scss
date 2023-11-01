@@ -1,0 +1,37 @@
+label[for=range] {
+    margin: 30px 0;
+
+    input[type=range] {
+        appearance: none;
+        width: 100%;
+        height: 10px;
+        border-radius: 25px;
+        background: linear-gradient(90deg, $soft-cyan 50%, $soft-cyan 50%);
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            background-image: url(../assets/images/icon-slider.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: $strong-cyan;
+            border-radius: 50%;
+        }
+
+        &::-moz-range-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            background-image: url(../assets/images/icon-slider.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: $strong-cyan;
+            border-radius: 50%;
+        }
+    }
+}
