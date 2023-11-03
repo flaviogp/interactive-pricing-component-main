@@ -5,13 +5,20 @@ import InputRange from "../../components/InputRange";
 import PriceResult from "../../components/PriceResult";
 import ToggleBilling from "../../components/ToggleBilling";
 
-export default function Main() {
+import { IData } from "../../interfaces";
+
+interface MainProps {
+  data: IData;
+  setData: (arg: IData) => void;
+}
+
+export default function Main({data, setData} : MainProps) {
     return (
       <main>
-        <CountPageViews pageViews="100"/>
-        <InputRange />
-        <PriceResult price="16.00" period="month"/>
-        <ToggleBilling />
+        <CountPageViews pageViews={data.pageViews}/>
+        <InputRange data={data} setData={setData}/>
+        <PriceResult data={data}/>
+        <ToggleBilling data={data} setData={setData}/>
         <BenefitsList />
         <Button />
 

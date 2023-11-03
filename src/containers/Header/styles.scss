@@ -17,6 +17,10 @@
         h1 {
             margin-bottom: 10px;
             font-size: 2.4rem;
+
+            @media screen and (min-width: 700px) {
+                font-size: 3rem;
+            }
         }
 
         .text {
@@ -29,10 +33,15 @@
 
                 font-size: 1.5rem;
                 color: $grayish-blue;
+
+                @media screen and (min-width: 700px) {
+                    font-size: 1.7rem;
+                }
             }
 
             @media screen and (min-width: 700px) {
                 flex-direction: row;
+                justify-content: center;
             }
         }
     }

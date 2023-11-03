@@ -10,9 +10,11 @@
         border: none;
         background-color: $dark-desaturated-blue;
         color: $pale-blue;
+        font-weight: 800;
 
         &:hover {
             cursor: pointer;
+            color: $soft-cyan
         }
     }
 }

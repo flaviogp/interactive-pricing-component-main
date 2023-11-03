@@ -13,12 +13,13 @@ html {
 }
 
 body {
-    // width: 100vw;
     background-image: url(../assets/images/bg-pattern.svg);
     background-color: $very-pale-blue;
     background-position: top -60px left 0;
     background-repeat: no-repeat;
     padding: 50px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .app {

@@ -1,5 +1,4 @@
 .price-result {
-    // width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,10 +8,18 @@
         font-weight: 800;
         margin-right: 10px;
         color: $dark-desaturated-blue;
+
+        @media screen and (min-width: 700px) {
+            font-size: 3rem;
+        }
     }
 
     span {
         color: $grayish-blue;
         font-size: 1.5rem;
+
+        @media screen and (min-width: 700px) {
+            font-size: 2rem;
+        }
     }
 }

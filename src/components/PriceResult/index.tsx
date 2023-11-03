@@ -1,15 +1,19 @@
+import { IData } from "../../interfaces"
 
 
 interface PriceResultProps {
-  price: string;
-  period: string;
+  data: IData;
 }
 
-export default function PriceResult({price, period}: PriceResultProps) {
+export default function PriceResult({data}: PriceResultProps) {
+
+
+
+
   return (
     <div className="price-result">
-      <p>${price}</p>
-      <span>/ {period}</span>
+      <p>${data.billing === 'Month' ? data.pricePerMonth : data.pricePerYear}</p>
+      <span>/ {data.billing}</span>
     </div>
   )
 }

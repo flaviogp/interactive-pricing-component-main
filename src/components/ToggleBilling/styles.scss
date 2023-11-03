@@ -10,7 +10,11 @@
 
     p {
         font-size: 1.5rem;
-        color: $grayish-blue
+        color: $grayish-blue;
+
+        @media screen and (min-width: 700px) {
+            font-size: 1.8rem;
+        }
     }
 
 
@@ -19,6 +23,14 @@
         background-color: rgba($light-red, .1);
         color: $light-red;
         border-radius: 5px;
+
+        @media screen and (min-width: 700px) {
+            font-size: 1.4rem;
+
+            &::after {
+                content: ' discount'
+            }
+        }
     }
 
     label {

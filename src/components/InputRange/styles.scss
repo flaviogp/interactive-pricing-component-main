@@ -19,6 +19,7 @@ label[for=range] {
             background-repeat: no-repeat;
             background-color: $strong-cyan;
             border-radius: 50%;
+
         }
 
         &::-moz-range-thumb {
@@ -33,5 +34,6 @@ label[for=range] {
             background-color: $strong-cyan;
             border-radius: 50%;
         }
+
     }
 }

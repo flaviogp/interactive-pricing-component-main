@@ -1,7 +1,7 @@
 
 
 interface CountPageViewsProps{
-  pageViews: string
+  pageViews: number
 }
 
 export default function CountPageViews({pageViews}: CountPageViewsProps) {
