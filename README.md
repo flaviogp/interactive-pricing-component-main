@@ -6,14 +6,14 @@
 
   <h2 align="center">E-commerce product page</h2>
   <p align="center">
-    <a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt"><strong>Frontend Mentor Challenge</strong></a>
+    <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://musical-daffodil-f4806d.netlify.app/">View Demo</a>
+    <a href="https://chipper-salamander-237596.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/flaviogp/expenses-chart-component/issues">Report Bug</a>
+    <a href="https://github.com/flaviogp/interactive-pricing-component-main/issues">Report Bug</a>
     ·
-    <a href="https://github.com/flaviogp/expenses-chart-component/issues">Request Feature</a>
+    <a href="https://github.com/flaviogp/interactive-pricing-component-main/issues">Request Feature</a>
   </p>
 </div>
 
@@ -38,13 +38,13 @@
 
 </div>
 
-This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt).Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Interactive pricing component on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8).Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Expenses chart component(ReactJs/TypeScript) | Frontend Mentor](https://www.frontendmentor.io/solutions/espenses-chat-component-reactjs-typescript-sass-F3ht00TRbA)
+- Solution URL: [Interactive pricing component(ReactJs/TypeScript) | Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-react-tyypescript-and-sass-hATLX7YUW1)
 
-- Live Site URL: [ Click here ](https://musical-daffodil-f4806d.netlify.app/)
+- Live Site URL: [ Click here ](https://chipper-salamander-237596.netlify.app/)
 
 <br>
 
@@ -63,15 +63,11 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 Your users should be able to:
 
-- View the bar chart and hover over the individual bars to see the correct amounts for each day
+- Use the slider and toggle to see prices for different page view numbers (details provided in the README.md)
 
-- See the current day's bar highlighted in a different colour to the other bars
-
-- View the optimal layout for the content depending on their device's screen size
+- View the optimal layout for the app depending on their device's screen size
 
 - See hover states for all interactive elements on the page
-
-- Bonus: See dynamically generated bars based on the data provided in the local JSON file
 
 ## My process
 
