@@ -11,8 +11,8 @@ label[for=range] {
         &::-webkit-slider-thumb {
             -webkit-appearance: none;
             appearance: none;
-            width: 35px;
-            height: 35px;
+            width: 50px;
+            height: 50px;
             cursor: pointer;
             background-image: url(../assets/images/icon-slider.svg);
             background-position: center;
@@ -25,8 +25,8 @@ label[for=range] {
         &::-moz-range-thumb {
             -webkit-appearance: none;
             appearance: none;
-            width: 35px;
-            height: 35px;
+            width: 50px;
+            height: 50px;
             cursor: pointer;
             background-image: url(../assets/images/icon-slider.svg);
             background-position: center;
