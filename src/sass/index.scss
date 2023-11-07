@@ -13,20 +13,14 @@ html {
 }
 
 body {
-    background-image: url(../assets/images/bg-pattern.svg);
     background-color: $very-pale-blue;
-    background-position: top -60px left 0;
-    background-repeat: no-repeat;
-    padding: 50px 20px;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .app {
-    min-width: 350px;
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-image: url(../assets/images/bg-pattern.svg);
+    background-position: top -60px left 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
 }

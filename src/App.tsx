@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react";
-
-import Header from "./containers/Header";
-import Main from "./containers/Main";
-
 import { IData } from "./interfaces";
+import Container from "./containers/Container";
 
 
 export default function App() {
@@ -32,8 +29,7 @@ useEffect(() => {
 
   return(
     <div className="app">
-      <Header />
-      <Main data={data} setData={setData}/>
+      < Container data={data} setData={setData} />
     </div>
   )
 }
